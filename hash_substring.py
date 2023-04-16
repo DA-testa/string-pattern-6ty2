@@ -29,7 +29,7 @@ def get_occurrences(pattern, text):
     h_pattern = hash(pattern)
     h_window = hash(text[:l_pattern])
 
-    return = []
+    result = []
 
     for i in range(l_text- l_pattern+ 1):
         if h_pattern == h_window:
